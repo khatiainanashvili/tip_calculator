@@ -104,11 +104,9 @@ input[type="number"] {
 }
 .input-bill{
   background-image: url('/src/images/icon-dollar.svg');
-  
 }
 .input-classname {
-  background-image: url('/src/images/icon-person.svg');
-}
+  background-image: url('/src/images/icon-person.svg'); }
 .costum {
   width: calc(50% - 8.29px);
   padding: 6px 17px;
@@ -177,10 +175,7 @@ input:focus{
   transition:background-color .2s ease-in;
   cursor: pointer;  
 }
-.reset:hover {
-  background-color:#9FE8DF;
-  ;
-}
+.reset:hover { background-color:#9FE8DF;}
 @media (min-width: 768px)  {
   .container {
     width: 530px;
@@ -189,41 +184,25 @@ input:focus{
     justify-content: center;
     align-items: center;
   }
-  .forms {
-    width: 55%;
-  }
-  .select-tip {
-    gap:14px;
-  }
+  .forms { width: 55%;}
+  .select-tip {gap:14px;}
   .tip {
     width: 45%;
     margin: 32px ;
   }
-  .reset {
-    margin-top: 122px;
-  }
-  .costum::placeholder {
-    font-size: 16px;
-  }
+  .reset { margin-top: 122px;}
+  .costum::placeholder {font-size: 16px;}
 }
 @media (min-width: 1023px)  {
-  .container {
-    width: 720px;
-  }
+  .container {width: 720px;}
   .costum {
     width: calc(33.33% - 10px);
     font-size: 24px;
     padding: 6px 14px;
   }
-  .button {
-    width: calc(33.33% - 10px);
-  }
+  .button { width: calc(33.33% - 10px);}
 }
 @media (min-width: 1440px)  {
-  .costum::placeholder{
-    font-size: 24px;
-  }
-  .container {
-    width: 920px;  }
+  .costum::placeholder{ font-size: 24px; }
+  .container { width: 920px;  }
 }
-
