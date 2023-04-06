@@ -9,7 +9,6 @@
   margin: 0;
   padding: 0;
 }
-
 body {
   font-family: 'Space Mono';
   background: #C5E4E7;
@@ -71,23 +70,19 @@ body {
 .button:hover {
   color: var(--very-dark-cian);
   background: #9FE8DF;
-
 }
 .active {
    background-color: var(--dark-cian);
    color: var(--very-dark-cian);
 }
-
-
 input[type="number"]::-webkit-outer-spin-button,
 input[type="number"]::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
 }
 input[type="number"] {
-    -moz-appearance: textfield;
+-moz-appearance: textfield;
 }
-
 .input-bill,
 .input-classname {
   width: 100%;
@@ -200,7 +195,6 @@ input:focus{
   .select-tip {
     gap:14px;
   }
- 
   .tip {
     width: 45%;
     margin: 32px ;
@@ -210,16 +204,12 @@ input:focus{
   }
   .costum::placeholder {
     font-size: 16px;
-
   }
-
 }
 @media (min-width: 1023px)  {
   .container {
     width: 720px;
-
   }
-
   .costum {
     width: calc(33.33% - 10px);
     font-size: 24px;
@@ -234,9 +224,6 @@ input:focus{
     font-size: 24px;
   }
   .container {
-    width: 920px;
-    
-  }
-
+    width: 920px;  }
 }
 
